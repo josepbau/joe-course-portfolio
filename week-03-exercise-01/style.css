@@ -1,4 +1,11 @@
 *{box-sizing:border-box;}
 
 body{font-family: Arial;}
-body{background: maroon;}
+body{background: rgb(128, 126, 126);}
+body{margin: 25px;}
+body{padding: 20px}
+.card {max-width: 600px;}
+.card {margin: 0 auto;}
+.card {padding: 20;}
+.card {background-color: maroon;}
+.card {border: 10px solid black;}
