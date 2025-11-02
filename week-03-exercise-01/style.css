@@ -7,5 +7,5 @@ body{padding: 20px}
 .card {max-width: 600px;}
 .card {margin: 0 auto;}
 .card {padding: 20;}
-.card {background-color: maroon;}
+.card {background-color: rgb(136, 56, 56);}
 .card {border: 10px solid black;}
