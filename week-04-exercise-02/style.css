@@ -43,15 +43,16 @@ main>p {
 
 .collection-grid {
     margin: 48px 0;
-  flex-wrap: wrap;
-  display: flex;
-  flex-flow: row;
+    flex-wrap: wrap;
+    display: flex;
+    flex-flow: row;
 
 
 
 }
 
 .collection-card {
+    flex-basis: 300px;
     border: 1px solid rgba(0, 0, 0, 0.25);
     background-color: #fafafa;
     padding: 16px;
@@ -59,6 +60,7 @@ main>p {
 }
 
 .collection-card img {
+    flex-basis:300px;
     width: 100%;
     height: auto;
     display: block;
@@ -67,6 +69,7 @@ main>p {
 }
 
 .collection-card h2 {
+    flex-basis: 300px;
     font-size: 24px;
     font-weight: bold;
     margin-top: 0;
@@ -75,6 +78,7 @@ main>p {
 }
 
 .collection-card .details {
+    flex-basis: 300px;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.6);
     margin-bottom: 16px;
@@ -82,7 +86,18 @@ main>p {
 }
 
 .collection-card .description {
+    flex-basis: 300px;
     font-size: 16px;
     margin-bottom: 0;
     line-height: 1.6;
 }
+@media (width >= 480px) {
+    .collection-card{
+        flex-basis: 45%;
+    }
+}
+ @media (width<= 1024px) {
+    .collection-card{
+        flex-basis:30%
+    }
+ }
