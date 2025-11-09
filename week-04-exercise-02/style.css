@@ -23,8 +23,8 @@ main {
     max-width: 1200px;
     width: 90%;
     padding: 16px;
-    border: 10px solid rgba(249, 246, 246, 0.25);
-    background-color: cornflowerblue;
+    border: 10px solid rgba(7, 40, 150, 0.25);
+    background-color: rgb(75, 102, 153);
 }
 
 h1 {
