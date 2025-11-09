@@ -44,8 +44,8 @@ main>p {
     margin-right: auto;
     display: flex;
     flex-wrap: wrap;
-    font-style: white
-    
+    font-style: white;
+
 }
 .grid-container{
     display: grid;
