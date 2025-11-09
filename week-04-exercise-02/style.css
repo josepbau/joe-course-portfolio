@@ -57,7 +57,7 @@ main>p {
     flex-basis: 300px;
     flex-wrap: wrap;
     border: 1px solid rgba(0, 0, 0, 0.25);
-    background-color: #fafafa;
+    background-color: #adaabd;
     padding: 16px;
     width: 300px;
 }
@@ -67,7 +67,7 @@ main>p {
     width: 100%;
     height: auto;
     display: block;
-    border: 1px solid rgba(136, 132, 132, 0.25);
+    border: 10px solid rgba(78, 57, 239, 0.47);
     margin-bottom: 16px;
 }
 
@@ -83,7 +83,7 @@ main>p {
 .collection-card .details {
     flex-basis: 300px;
     font-size: 14px;
-    color: rgba(51, 5, 238, 0.6);
+    color: rgba(20, 3, 88, 0.6);
     margin-bottom: 16px;
     font-style: italic;
 }
