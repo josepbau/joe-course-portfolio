@@ -15,6 +15,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
+
     padding: 32px 0;
 }
 
@@ -43,7 +44,11 @@ main>p {
     display: flex;
     flex-wrap: wrap;
 }
-
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 15px;
+}
 .collection-grid {
     margin: 48px 0;
     flex-wrap: wrap;
