@@ -96,7 +96,14 @@ button {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.button-03:hover {
-     transform: translateY(-4px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
+.button-03:slide-button {
+        position: relative; /* Essential for positioning the pseudo-element */
+        overflow: hidden; /* Hides the pseudo-element initially */
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        transition: color 0.3s ease; /* Smooth transition for text color */
+    }
