@@ -96,7 +96,7 @@ button {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.button-03{
+.button-03:hover {
      animation-duration: 3s;
     animation-name: slide-in;
 }
