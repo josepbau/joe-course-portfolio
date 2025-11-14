@@ -100,8 +100,8 @@ button {
         position: relative; /* Essential for positioning the pseudo-element */
         overflow: hidden; /* Hides the pseudo-element initially */
         padding: 10px 20px;
-        background-color: #3498db;
-        color: white;
+        background-color: #eceff1;
+        color: rgb(25, 156, 227);
         border: none;
         cursor: pointer;
         font-size: 16px;
