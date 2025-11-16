@@ -11,7 +11,10 @@ p {
 body {
     font-family: Arial, sans-serif;
     background-color: #ced5d1;
+    margin: 60px;
+    padding: 60px;
 }
+
 
 .box {
     max-width: 1400px;
@@ -26,13 +29,12 @@ header {
     padding: 10px 0;
 }
 
-#logo {
-    float: left;
-    font-size: 1.5em;
-}
 
-nav {
-    float: right;
+nav {text-align: center;
+        display: flex;
+        justify-content: center; 
+        align-items: center;   
+        height: 100px;       
 }
 
 .nav-links {
@@ -56,6 +58,21 @@ nav {
 
 .nav-links li a:hover {
     background-color: #14562a;
+}
+
+.collection-grid { 
+    margin: 0 auto;
+    flex-flow: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.collection-card { 
+    border: 10px solid black;
+    padding: 20px;
+    width: 1400px;
+    background-color: white
 }
 
 
@@ -89,8 +106,8 @@ h2 {
     font-size: 18px;
 }
     li {
-        margin-bottom: 20px; /* Adds space between list items */
-        padding-left: 20px; /* Adds space between the marker and the text */
+        margin-bottom: 20px; 
+        padding-left: 20px; 
     }
  p {
         margin-top: 25px;
@@ -101,11 +118,39 @@ h2 {
 
 
 body {
-  padding-top: 40px;    /* Adds 10px of internal space above the h1 content */
-  padding-bottom: 40px; /* Adds 10px of internal space below the h1 content */
-  padding-left: 40px;   /* Adds 20px of internal space to the left of the h1 content */
-  padding-right: 40px;  /* Adds 20px of internal space to the right of the h1 content */
+  padding-top: 40px;   
+  padding-bottom: 40px; 
+  padding-left: 40px;   
+  padding-right: 40px;  
 }
 
-footer {float: right;
+.button-01 {
+    background-color:#ced5d1;
+    color:#14562a;
+    font-style:oblique;
+    padding: 12px 24px;
+    border: 2px solid black;
+    transition: background-color 0.2s ease, border-color 0.3s ease;
+     border-radius: 10px;
+}
+
+.button-01:hover { 
+    background-color:#14562a;
+    color:#ced5d1;
+    border-color:black;
+   
+}
+
+
+footer {text-align: center;
+        display: flex;
+        justify-content: center; 
+        align-items: center;   
+        height: 100px;       
+}
+
+@media(width>=480px){.collection-card{flex: 1 1 45%}
+}
+
+@media(width>=1400px){.collectio-card{flex: 1 1 25%}
 }
