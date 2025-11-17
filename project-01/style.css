@@ -72,6 +72,7 @@ nav {text-align: center;
     border: 10px solid black;
     padding: 20px;
     width: 1400px;
+    flex: 1 1 100%;
     background-color: white
 }
 
@@ -149,8 +150,8 @@ footer {text-align: center;
         height: 100px;       
 }
 
-@media(width>=480px){.collection-card{flex: 1 1 45%}
+@media(height>=480px){ .collection-card{flex: 1 1 45%}
 }
 
-@media(width>=1400px){.collectio-card{flex: 1 1 25%}
+@media(height>=1400px){ .collectio-card{flex: 1 1 25%}
 }
