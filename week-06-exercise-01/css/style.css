@@ -147,7 +147,14 @@ code {
   margin-top: 80px;
 }
 
-.nav-custom {}
+.nav-custom {position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #e7cd0a;
+  padding: 0 32px;
+  box-shadow: 0 2px 4px rgba(58, 56, 56, 0.1);
+  z-index: 1;}
 
 .nav-custom ul {}
 
