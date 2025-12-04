@@ -62,7 +62,7 @@ nav {text-align: center;
 
 .collection-grid { 
     margin: 0 auto;
-    flex-flow: column;
+    flex-flow: row;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
