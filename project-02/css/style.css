@@ -1,6 +1,5 @@
 p {
-  color: #000000
-  ;
+  color: #000000; font-size: 20px;
 }
 * {
     margin: 0;
@@ -61,7 +60,7 @@ nav {text-align: center;
 }
 
 .collection-grid { 
-    margin: 0 auto;
+    margin: 48px 0 auto;
     flex-flow: row;
     display: flex;
     flex-wrap: wrap;
@@ -71,33 +70,21 @@ nav {text-align: center;
 .collection-card { 
     border: 10px solid black;
     padding: 20px;
-    width: 1400px;
+    width: 350px;
     flex: 1 1 100%;
     background-color: white
 }
 
 
 h1 {
-  color: #14562a; 
-}
- h1 {
-        font-size: 60px
-    }
-    h1 {
+  color: #14562a; font-size: 60px;
   padding-top: 10px;    
   padding-bottom: 10px; 
   padding-left: 20px;   
   padding-right: 20px;  
 }
 h2 {
-        font-size: 30px
-    }
-    h2 { color: #14562a;
-    }
- p {
-        font-size: 20px
-    }  
-    h2 {
+        font-size: 30px; color: #14562a;
   padding-top: 10px;    
   padding-bottom: 10px; 
   padding-left: 20px;   
@@ -105,8 +92,6 @@ h2 {
 }  
     li {
     font-size: 18px;
-}
-    li {
         margin-bottom: 20px; 
         padding-left: 20px; 
     }
@@ -119,10 +104,8 @@ h2 {
 
 
 body {
-  padding-top: 40px;   
-  padding-bottom: 40px; 
-  padding-left: 40px;   
-  padding-right: 40px;  
+  margin: 20px;
+  padding: 20px; 
 }
 
 .button-01 {
@@ -150,8 +133,8 @@ footer {text-align: center;
         height: 100px;       
 }
 
-@media(height>=480px){ .collection-card{flex: 1 1 45%}
+@media(width>=480px){ .collection-card{flex: 1 1 45%}
 }
 
-@media(height>=1400px){ .collectio-card{flex: 1 1 25%}
+@media(width>=1024px){ .collectio-card{flex: 1 1 100%}
 }
